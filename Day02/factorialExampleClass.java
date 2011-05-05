@@ -2,13 +2,26 @@ import java.io.*;
 
 public class factorialExampleClass
 {
-   static int returnValue;
+   
    
    public static int fact( int n )
    {
 	   
-	   // System.out.print(n + " ");
-	   returnValue = 0;
+	   System.out.print(n + " ");
+	   int returnValue = 0;
+	   
+	   
+	   // recursive case
+	   if (n > 1)
+	   {
+	       returnValue = n * fact(n);
+	       System.out.println( "Returns " + returnValue);
+	   }
+	   else
+	   {
+	       // base case
+	       returnValue = 1;
+       }
 	   
 	   
 	   return returnValue;

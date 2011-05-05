@@ -64,13 +64,13 @@ class Point
 		y = 1;
 	}
 	
-	
+/*	
 	public String toString()
 	{
 		String retString =  "X: " + x + "  : Y: "+ y;
 		return retString;
 	}
-	
+*/	
 	
 	// mutator for x
 	public boolean setX (int newX)
