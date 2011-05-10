@@ -4,7 +4,7 @@ public class RecursiveDirTree
 	public static void main (String [] args)
 	{
 		//visitAllDirsAndFiles(new File("/Users/rob/scratch"));
-		visitAllDirsAndFiles(new File("/Users/rob/projects"));
+		visitAllDirsAndFiles(new File("/Users/robg/projects"));
 	}
 	// Process all files and directories under dir
 	public static void visitAllDirsAndFiles(File dir) 
